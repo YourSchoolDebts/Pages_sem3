@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Custom Bootstrap</title>
+    <link href="/scss/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="blue_c">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="img/Logo.png"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item d-lg-none d-xl-block"> 
+                      <a href="" class="navbar-brand"><img src="img/Facebook.png" class="img-fluid"></a>
+                      <a href="" class="navbar-brand"><img src="img/Twitter.png" class="img-fluid"></a>
+                      <a href="" class="navbar-brand"><img src="img/LinkedIn.png" class="img-fluid"></a>
+                    </li>
+                    
+                    <li class="nav-item ms-5">
+                        <a href="" class="nav-link text-white mt-2 mx-4">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <nav class="navbar navbar-expand-sm mx-4">
+              
+                          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                              <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Pages
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Действие</a></li>
+                                  <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                  <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                  </ul>
+                              </li>
+                              </ul>
+                          </div>
+                                   
+                      </nav>
+                  </li>
+
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white mt-2 mx-4">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white mt-2 mx-4">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/contact.html" class="nav-link text-white mt-2 mx-4">Contacts</a>
+                    </li>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img src="img/Cart.png">
+                    </button>
+                    <button class="btn yellow_c_bg rounded-0 h-25 mt-2 px-lg-3 px-xl-5" type="button"><a href="/login.html" style="text-decoration: none;" class="text-black">Order Today</a></button>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="section mt-0 mt-lg-5 pb-5">
+      <div class="container text-white">
+        <div class="row">
+            <div class="col mt-0 mt-lg-5 mt-sm-0">
+                <div class="row mt-5 ">
+                  <blockquote class="blockquote mt-5">
+                    <p class="fst-italic">- Welcome to Pages</p>
+                  </blockquote>
+                  <h1 class="">Books are uniquely<br>
+                    portable magic </h1>
+                  <p class="mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                  <div class="row d-flex flex-row mt-4 align-items-center">
+                    <div class="col-8 col-lg-6 col-xl-4"><button type="button" class="btn rounded-0 yellow_c_bg px-5 py-2">Order Today</button></div>
+                    <div class="col-8 col-lg-4 col-xl-4"><a><u>Read Free Demo</u></a></div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-1"><img src="img/Bg.png"></div>
+                        <div class="col-10">
+                          <p class="mb-0">Pages</p>
+                          <p class="fw-lighter">586pages</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-1"><img src="img/Bg.png"></div>
+                        <div class="col-10">
+                          <p class="mb-0">Length:</p>
+                          <p class="fw-lighter">10 Hours</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-1"><img src="img/Bg.png"></div>
+                        <div class="col-10">
+                          <p class="mb-0">Ratings:</p>
+                          <p class="fw-lighter">4.5/5</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col d-none d-sm-none d-md-block"><img src="/img/Book.png" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+
+    </header>
+    
+    <div class="section mt-5">
+      <div class="container text-center">
+        <h2 class="fst-italic">Author’s Book Includes</h2>
+        <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="card mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Book2.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fst-italic">Atomic One’s</h5>
+                    <p class="card-text">Many variations of passages <br> of Lorem Ipsum willing araise <br> alteration in some form.</p>
+                    <div class="row">
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Pages</p>
+                              <p class="fw-lighter">586pages</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Length</p>
+                              <p class="fw-lighter">10 Hours</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="text-white d-flex ms-auto "><button type="button" class="btn btn-light rounded-0 border-warning py-2 px-4 ">Order Today</button></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/img/Book3.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fst-italic">The Dark Light</h5>
+                    <p class="card-text">Many variations of passages <br> of Lorem Ipsum willing araise <br> alteration in some form.</p>
+                    <div class="row">
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Pages</p>
+                              <p class="fw-lighter">586pages</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Length</p>
+                              <p class="fw-lighter">10 Hours</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="text-white d-flex ms-auto "><button type="button" class="btn btn-light rounded-0 border-warning py-2 px-4 ">Order Today</button></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section mt-5 sec_blue_c py-5">
+      <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-5 justify-content-center">
+            <div class="col"><img src="img/author.png" class="img-fluid"></div>
+
+            <div class="col mx-5">
+              <div class="row">
+                <div class="col my-4">
+                  <h2 class="fst-italic">About Author</h2>
+                  <hr>
+                  <p class="fw-lighter" style="font-size: 14px;">All the Lorem Ipsum generators on the Internet tend to repeated predefined chunks as necessary, making this the first true value generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful.</p>
+                  <div class="row">
+                      <div class="col border-end border-warning ">
+                        <h3 class="">02</h3>
+                        <p class="fw-lighter mt-2 mb-0">Books Published</p>
+                      </div>
+                      <div class="col border-end border-warning ">
+                        <h3 class="">4.5</h3>
+                        <p class="fw-lighter mt-2 mb-0">User Reviews</p>
+                      </div>
+                      <div class="col border-end border-warning ">
+                        <h3 class="">04</h3>
+                        <p class="fw-lighter mt-2 mb-0">Best Seller Awards</p>
+                      </div>
+                  </div>
+
+                  <div class="row blue_c px-3 py-3 mt-4">
+                    <div class="col-3"><img src="img/qr.png" class="img-fluid"></div>
+                    <div class="col">
+                      <p class="my-0 yellow_c">John Abraham , Ph.d</p>
+                      <p class="my-0 fw-lighter text-white">Mail : johnabraham@gmail.com</p>
+                      <p class="my-0 fw-lighter text-white">Phone : (+2) 123 545 9000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="section mt-5">
+      <div class="container text-center">
+        <h2 class="fst-italic">Trusted by the Best</h2>
+        <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container px-5 py-5">
+          <div class="row text-center justify-content-around align-items-end">
+              <div class="col-12 col-sm-6 col-lg-2 mb-5">
+                <img src="img/Logo2.png" class="img-fluid mb-2">
+                <p>Amazen Corp</p>
+                <p class="fw-lighter">A long established fact that a who looking at its layout.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-5">
+                <img src="img/Logo3.png" class="img-fluid mb-5">
+                <p>Megan Books</p>
+                <p class="fw-lighter">A long established fact that a who looking at its layout.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-5">
+                <img src="img/Logo4.png" class="img-fluid mb-4">
+                <p>Los Books</p>
+                <p class="fw-lighter">A long established fact that a who looking at its layout.</p>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-5">
+                <img src="img/Logo5.png" class="img-fluid mb-2">
+                <p>Urban Lib</p>
+                <p class="fw-lighter">A long established fact that a who looking at its layout.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="section blue_c py-5 px-5">
+   
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-sm-4 col-lg-3">
+              <h2 class="text-white fst-italic">Get Book Copy Today!</h2>
+              <hr>
+              <p class="text-white fw-lighter">This the first true value generator on the Internet. It uses alphas dictionary of over 200 Latin words.</p>
+              <div class="text-white d-flex ms-auto mt-5"><button type="button" class="btn rounded-0 border-warning text-white py-2 px-5 fst-italic">Order Today</button></div>
+            </div>
+            <div class="col-5 d-none d-sm-block"><img src="img/tea.png"></div>
+          </div>
+
+    </div>
+
+    <div class="section mt-5">
+      <div class="container text-center">
+        <h2 class="fst-italic">What will you learn?</h2>
+        <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container ">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-6 col-xl-4">
+
+                <div class="row mt-2">
+                  <div class="col">
+                      <div class="sec_blue_c px-4 py-3">
+                        <p class="yellow_c_bg  text-center rounded-circle py-1 px-1" style="width:32px;">01</p>
+                        <p class="">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                      </div>
+                  </div>
+               
+
+  
+                  <div class="col">
+                    <div class="sec_blue_c px-4 py-3">
+                      <p class="yellow_c_bg  text-center rounded-circle py-1 px-1" style="width:32px;">02</p>
+                      <p class="">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                    </div>
+                  </div>
+                </div>
+
+            
+
+            
+                <div class="row mt-3">
+                  <div class="col">
+                    <div class="sec_blue_c px-4 py-3">
+                      <p class="yellow_c_bg  text-center rounded-circle py-1 px-1" style="width:32px;">03</p>
+                      <p class="">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="sec_blue_c px-4 py-3">
+                      <p class="yellow_c_bg  text-center rounded-circle py-1 px-1" style="width:32px;">04</p>
+                      <p class="">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                    </div>
+                  </div>
+                </div>
+  
+              
+            </div>
+
+            <div class="col-lg-5 col-xl-4 px-5 d-none d-lg-block"><img src="img/reader.png" class="img-fluid"></div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="section sec_blue_c mt-5">
+      <div class="container text-center pt-4">
+        <h2 class="fst-italic mt-5">What will you learn?</h2>
+        <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+      </div>
+
+
+      <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-5">
+                  <div class="shadow_cont py-3 px-5 mt-4">
+                        <h5 class="">Chapter- 01   Get Started Intro</h5>
+                        <p class="">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+
+                        <div class="row">
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-1"><img src="img/Bg.png"></div>
+                              <div class="col-10">
+                                <p class="mb-0">Pages</p>
+                                <p class="fw-lighter">586pages</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col">
+                            <div class="row">
+                              <div class="col-1"><img src="img/Bg.png"></div>
+                              <div class="col-10">
+                                <p class="mb-0">Length</p>
+                                <p class="fw-lighter">10 Hours</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="shadow_cont py-3 px-5  mt-4">
+                      <h5 class="">Chapter- 01   Get Started Intro</h5>
+                      <p class="">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+
+                      <div class="row">
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Pages</p>
+                              <p class="fw-lighter">586pages</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="row">
+                            <div class="col-1"><img src="img/Bg.png"></div>
+                            <div class="col-10">
+                              <p class="mb-0">Length</p>
+                              <p class="fw-lighter">10 Hours</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                  </div>
+
+
+            <div class="col-12 col-lg-5">
+
+                  <div class="shadow_cont py-3 px-5 mt-4">
+                    <h5 class="">Chapter- 01   Get Started Intro</h5>
+                    <p class="">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                  
+                    <div class="row">
+                      <div class="col">
+                        <div class="row">
+                          <div class="col-1"><img src="img/Bg.png"></div>
+                          <div class="col-10">
+                            <p class="mb-0">Pages</p>
+                            <p class="fw-lighter">586pages</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="row">
+                          <div class="col-1"><img src="img/Bg.png"></div>
+                          <div class="col-10">
+                            <p class="mb-0">Length</p>
+                            <p class="fw-lighter">10 Hours</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="shadow_cont py-3 px-5 mt-4">
+                  <h5 class="">Chapter- 01   Get Started Intro</h5>
+                  <p class="">Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+                
+                  <div class="row">
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-1"><img src="img/Bg.png"></div>
+                        <div class="col-10">
+                          <p class="mb-0">Pages</p>
+                          <p class="fw-lighter">586pages</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="row">
+                        <div class="col-1"><img src="img/Bg.png"></div>
+                        <div class="col-10">
+                          <p class="mb-0">Length</p>
+                          <p class="fw-lighter">10 Hours</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="text-center mx-auto mt-5 pb-5">
+            <button type="button" class="btn btn-light rounded-0 bg-warning btn_self py-2 ">Start a 15-Days Free Trail</button>
+            <p class="mt-4">Short description about each chapter<br>
+              <a><u>Have any questions?</u></a> Contact us</p>
+          </div>
+      </div>
+
+
+
+  
+
+    </div>
+
+
+    <div class="section mt-5">
+      <div class="container text-center">
+        <h2 class="fst-italic">What Readers Say About the Book</h2>
+        <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+      </div>
+    </div>
+
+    <div class="container my-4 slides">
+      <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+                <div class="d-block w-100 blue_c text-white pt-5 pb-4 px-5" >
+                  <div class="row">
+                    <div class="col"><img src="img/face1.png"></div>
+                    <div class="col">
+                      <p >Martin Philips</p>
+                      <img src="img/Reviews.svg">
+                    </div>
+                  </div>
+
+                  <p class="my-2">“ Awesome Impact ”</p>
+                  <p class="fw-lighter">All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 blue_c text-white pt-5 pb-4 px-5" >
+              <div class="row">
+                <div class="col"><img src="img/face2.png"></div>
+                <div class="col">
+                  <p >James Anderson</p>
+                  <img src="img/Reviews.svg">
+                </div>
+              </div>
+
+              <p class="my-2">“ Mind Blowing Words ”</p>
+              <p class="fw-lighter">All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 blue_c text-white pt-5 pb-4 px-5" >
+              <div class="row">
+                <div class="col"><img src="img/face3.png"></div>
+                <div class="col">
+                  <p >Christina Louis</p>
+                  <img src="img/Reviews.svg">
+                </div>
+              </div>
+
+              <p class="my-2">“ Great Books Collections ”</p>
+              <p class="fw-lighter">All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.All the Lorem Ipsum generators on the Internet tend to repeat willings predefined chunks value.</p>
+            </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+          </button>
+      </div>
+    </div>  
+
+
+
+    <div class="section sec_blue_c pb-5">
+      <div class="section mt-5 pt-5">
+        <div class="container text-center">
+          <h2 class="fst-italic">Articles & Resources</h2>
+          <hr style="width: 10%; margin-left:auto; margin-right:auto; height: 2px; color:#FFCA42;" >
+        </div>
+      </div>
+
+      <div class="container ">
+        <div class="row row-cols-1 gy-4 row-cols-lg-3 justify-content-center">
+          <div class="col">
+            <div class="card" >
+              <img src="img/card1.png" class="card-img-top" alt="...">
+              <div class="card-body py-4 px-3">
+                <h5 class="card-title">The energy efficiency offers hydrotherapy or swim</h5>
+                <p class="card-text my-4">The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                <div class="row justify-content-between">
+                    <div class="col"><a href="/articles.html" class="text-black"><u>Read more</u> </a></div>
+                    <div class="col">Author - 23.05.2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" >
+              <img src="img/card2.png" class="card-img-top" alt="...">
+              <div class="card-body py-4 px-3">
+                <h5 class="card-title">Release of Letraset sheets tools containing  passages</h5>
+                <p class="card-text my-4">The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                <div class="row justify-content-between">
+                  <div class="col"><a href="/articles.html" class="text-black"><u>Read more</u> </a></div>
+                  <div class="col">Author - 23.05.2022</div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" >
+              <img src="img/card3.png" class="card-img-top" alt="...">
+              <div class="card-body py-4 px-3">
+                <h5 class="card-title">The energy efficiency offers hydrotherapy or swim</h5>
+                <p class="card-text my-4">The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
+                <div class="row justify-content-between">
+                  <div class="col"><a href="/articles.html" class="text-black"><u>Read more</u> </a></div>
+                  <div class="col">Author - 23.05.2022</div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section my-5">
+      <div class="container yellow_c_bg text-center py-5 free_chapter_cont">
+        <div class=" container w-75 ">
+
+          <h2>Read a free chapter</h2>
+          <hr>
+          <p>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
+
+          <form class="">
+            <div style="display: flex; margin-left:auto; margin-right:auto; gap: 20px;" class="free_chapter">
+                <input type="text" class="form-control bg-light text-secondary rounded-0" placeholder="Enter your email" id="exampleInputPassword1">
+                <button type="submit" class="btn rounded-0 blue_c text-white px-5">Subscribe</button>
+            </div>
+        </form>
+        </div>
+
+      </div>
+    </div>
+
+    
+    <div class="section blue_c py-5">
+        <div class="container px-5">
+          <div class="row text-white">
+            <div class="col-12 col-sm-7 col-lg-5 mb-3">
+              <img src="img/Logo.png">
+              <div class="row row-cols-5 mt-4">
+                  <div class="col"><img src="img/facebook2.png"></div>
+                  <div class="col"><img src="img/twi2.png"></div>
+                  <div class="col"><img src="img/link2.png"></div>
+                  <div class="col"><img src="img/inst2.png"></div>
+              </div>
+            </div>
+
+            
+            <div class="col-12 col-lg-2 mb-3" style="display: flex; flex-direction:column;">
+              <h5>Explore</h5>
+              <a>Home</a>
+              <a>About Us</a>
+              <a>Services</a>
+              <a>Appointments</a>
+              <a>Blog</a>
+              <a>Contact Us</a>
+            </div>
+
+            <div class="col-12 col-sm-7 col-lg-2 mb-3" style="display: flex; flex-direction:column;">
+              <h5>Utility Pages</h5>
+              <a>Start here</a>
+              <a>Style guide</a>
+              <a>404 not found</a>
+              <a>Password protected</a>
+              <a>Licenses</a>
+              <a>Changelog</a>
+            </div>
+
+            <div class="col-12 col-lg-3">
+              <h5>Keep in Touch</h5>
+              <p>Address : 24A Kingston St, Los Vegas NC 28202, USA. </p>
+              <p>Mail : support@doctors.com </p>
+              <p>Phone : (+22) 123 - 4567 - 900</p>
+            </div>
+          </div>
+          
+
+          <hr>
+          <p class="text-light text-center">© Drafted by Victorflow - Powered by Webflow</p>
+        </div>
+
+    
+    </div>
+
+
+          <!-- Модальное окно -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Ooops...</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              Your are not logged into your account
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Later</button>
+              <button type="button" class="btn blue_c" data-bs-dismiss="modal"><a href="/login.html" style="text-decoration: none;" class="text-white ">Log In</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="/own.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="/dist/js/bootstrap.js"></script>
+  </body>
+</html>
+

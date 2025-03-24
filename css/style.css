@@ -1,0 +1,47 @@
+.blue_c{
+    background-color: #1B3764;
+}
+.sec_blue_c{
+    background-color: #F4F8FF;
+}
+.yellow_c{
+    color:#FFCA42;
+}
+.yellow_c_bg{
+    background-color:#FFCA42;
+}
+.shadow_cont{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn_self{
+    width: 25%;
+}
+.slides{
+    width: 25%;
+}
+.free_chapter_cont{
+    width: 50%;
+}
+@media (max-width: 572px) {
+    .btn_self{
+        width: 50%;
+    }
+    .slides{
+        width: 100%;
+    }
+    .free_chapter{
+        flex-direction: column;
+    }
+    .free_chapter_cont{
+        width: 100%;
+    }
+}
+
+@media (min-width: 572px ) and (max-width: 1024px) {
+    .slides{
+        width: 50%;
+    }
+    .free_chapter{
+        flex-direction: column;
+    }
+}

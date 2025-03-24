@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Custom Bootstrap</title>
+    <link href="/scss/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <header class="blue_c">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a href="" class="navbar-brand"><img src="img/Logo.png"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item d-lg-none d-xl-block"> 
+                      <a href="" class="navbar-brand"><img src="img/Facebook.png" class="img-fluid"></a>
+                      <a href="" class="navbar-brand"><img src="img/Twitter.png" class="img-fluid"></a>
+                      <a href="" class="navbar-brand"><img src="img/LinkedIn.png" class="img-fluid"></a>
+                    </li>
+                    
+                    <li class="nav-item ms-5">
+                        <a href="/index.html" class="nav-link text-white mt-2 mx-4">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <nav class="navbar navbar-expand-sm mx-4">
+              
+                          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                              <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Pages
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Действие</a></li>
+                                  <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                  <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                  </ul>
+                              </li>
+                              </ul>
+                          </div>
+                                   
+                      </nav>
+                  </li>
+
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white mt-2 mx-4">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white mt-2 mx-4">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/contact.html" class="nav-link text-white mt-2 mx-4">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="" class="nav-link text-white mt-2 mx-4"><img src="img/Cart.png"></a>
+                    </li>
+                    <button class="btn yellow_c_bg rounded-0 h-25 mt-3 px-lg-3 px-xl-5">Order Today</button>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="section">
+        <div class="container w-50 text-center pb-5 text-white py-5 my-5">
+            <h1>Welcome!</h1>
+            <hr>
+            <p>There are many variations of passages of Lorem Ipsum available,  have suffered alteration in some form.</p>
+        </div>
+    </div>
+
+    </header>
+    
+    <div class="section mb-5">
+        <div class="container yellow_c_bg py-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                
+                        <div class="tab" role="tabpanel">
+                        
+                            <ul class="nav nav-tabs justify-content-center" role="tablist">
+                                <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab" class="text-black">sign in</a></li>
+                                <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab" class="text-black">sign up</a></li>
+                            </ul>
+                        
+                            <div class="tab-content tabs mt-4">
+                                <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                                    <form class="row g-3">
+                                        <div class="col-md-12 px-0">
+                                          <label for="validationDefault01" class="form-label">Email</label>
+                                          <input type="text" class="form-control" id="validationDefaultEmail" placeholder="my_mail@gmail.com" required>
+                                        </div>
+                                        <div class="col-md-12 px-0">
+                                          <label for="validationDefault02" class="form-label">Pasword</label>
+                                          <input type="password" class="form-control" id="validationPas"  required>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox"  id="invalidCheck" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                I accept the terms and agreements
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button class="btn blue_c text-white py-2 px-5 rounded-0" type="submit" id="In_btn">Sign In</button>
+                                        </div>
+                                      </form>
+                                </div>
+
+
+                                <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                    <form class="row g-3">
+                                        <div class="col-md-4 px-0">
+                                          <label for="validationDefault01" class="form-label">First Name</label>
+                                          <input type="text" class="form-control" id="validationFName" placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-md-4 px-0">
+                                          <label for="validationDefault02" class="form-label">Last Name</label>
+                                          <input type="text" class="form-control" id="validationLName" placeholder="Last Name" required>
+                                        </div>
+                                        <div class="col-md-12 px-0">
+                                          <label for="validationDefaultUsername" class="form-label">Email</label>
+                                          <div class="input-group">
+                                            
+                                            <input type="text" class="form-control" id="validationDefaultEmail2"  aria-describedby="inputGroupPrepend2" placeholder="my_mail@gmail.com">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6 px-0">
+                                          <label for="validationDefault03" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="validationPas2" required>
+                                        </div>
+                                        <div class="col-md-3">
+                                          <label for="validationDefault04" class="form-label">Country</label>
+                                          <select class="form-select" id="validationDefault04">
+                                            <option selected disabled value="">Other</option>
+                                            <option>Amerima</option>
+                                            <option>New Zeland</option>
+                                            <option>Canada</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                            <label class="form-check-label" for="invalidCheck2">
+                                                I accept the terms and agreements
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button class="btn blue_c text-white py-2 px-5 rounded-0" type="submit" id="Up_btn">Sign Up</button>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="section blue_c py-5">
+        <div class="container px-5">
+          <div class="row text-white">
+            <div class="col-12 col-sm-7 col-lg-5 mb-3">
+              <img src="img/Logo.png">
+              <div class="row row-cols-5 mt-4">
+                  <div class="col"><img src="img/facebook2.png"></div>
+                  <div class="col"><img src="img/twi2.png"></div>
+                  <div class="col"><img src="img/link2.png"></div>
+                  <div class="col"><img src="img/inst2.png"></div>
+              </div>
+            </div>
+
+            
+            <div class="col-12 col-lg-2 mb-3" style="display: flex; flex-direction:column;">
+              <h5>Explore</h5>
+              <a>Home</a>
+              <a>About Us</a>
+              <a>Services</a>
+              <a>Appointments</a>
+              <a>Blog</a>
+              <a>Contact Us</a>
+            </div>
+
+            <div class="col-12 col-sm-7 col-lg-2 mb-3" style="display: flex; flex-direction:column;">
+              <h5>Utility Pages</h5>
+              <a>Start here</a>
+              <a>Style guide</a>
+              <a>404 not found</a>
+              <a>Password protected</a>
+              <a>Licenses</a>
+              <a>Changelog</a>
+            </div>
+
+            <div class="col-12 col-lg-3">
+              <h5>Keep in Touch</h5>
+              <p>Address : 24A Kingston St, Los Vegas NC 28202, USA. </p>
+              <p>Mail : support@doctors.com </p>
+              <p>Phone : (+22) 123 - 4567 - 900</p>
+            </div>
+          </div>
+          
+
+          <hr>
+          <p class="text-light text-center">© Drafted by Victorflow - Powered by Webflow</p>
+        </div>
+
+    
+    </div>
+
+      <script src="/own.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="/dist/js/bootstrap.js"></script>
+  </body>
+</html>
+
